@@ -11,6 +11,6 @@
     "strict": true,
     "target": "ES2019"
   },
-  "exclude": ["coverage/", "node_modules/", "example.js"],
+  "exclude": ["coverage/", "node_modules/", "prism-cpp-*.js", "*.min.js"],
   "include": ["**/*.js", "lib/index.d.ts"]
 }

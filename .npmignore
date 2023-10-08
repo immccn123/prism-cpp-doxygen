@@ -2,3 +2,5 @@ rollup.config.mjs
 example.html
 
 *.tgz
+
+screenshot.png

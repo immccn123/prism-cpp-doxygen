@@ -1,4 +1,5 @@
 import terser from "@rollup/plugin-terser";
+import strip from "@rollup/plugin-strip";
 
 export default {
   input: "src/main.js",
@@ -13,5 +14,9 @@ export default {
       plugins: [terser()],
     },
   ],
-  plugins: [],
+  plugins: [
+    strip({
+      labels: ["unittest"],
+    }),
+  ],
 };
