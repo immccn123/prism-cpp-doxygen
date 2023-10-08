@@ -33,7 +33,7 @@ export default function (Prism) {
     inside: doxygenInner,
   };
 
-  Prism.languages.cpp = Prism.languages.extend("cpp", {
+  Prism.languages.doxycpp = Prism.languages.extend("cpp", {
     comment: [
       {
         pattern: /(^|[^\\])\/\*[\s\S]*?(?:\*\/|$)/,

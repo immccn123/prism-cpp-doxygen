@@ -7,3 +7,9 @@ Usage:
 ```html
 <script src="https://cdn.jsdelivr.net/npm/prism-cpp-doxygen/prism-cpp-doxygen.min.js"></script>
 ```
+
+````markdown
+```doxycpp
+/** @brief xxx */
+```
+````
