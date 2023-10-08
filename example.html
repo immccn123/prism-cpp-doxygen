@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Prism.js Doxygen Example</title>
+    <link href="https://prismjs.com/themes/prism.css" rel="stylesheet" />
+  </head>
+  <body>
+    <pre><code class="language-cpp">// @param normal comment
+/// @param x 输入参数
+/// @return 返回值
+/// @parac qwq
+/* @param a */
+/*! @param a b */
+/** @param a b */
+int myFunction(int x) {
+  return x * 2;
+}</code></pre>
+    <!-- <script type="module">
+      import cppDoxygen from "./src/prism-cpp-doxygen.js";
+      cppDoxygen(Prism);
+    </script> -->
+    <script src="https://unpkg.com/prismjs@1.29.0/components/prism-core.js"></script>
+    <script src="https://unpkg.com/prismjs@1.29.0/components/prism-clike.js"></script>
+    <script src="https://unpkg.com/prismjs@1.29.0/components/prism-c.js"></script>
+    <!-- <script src="https://unpkg.com/prismjs@1.29.0/plugins/autoloader/prism-autoloader.js"></script> -->
+    <script src="https://unpkg.com/prismjs@1.29.0/components/prism-cpp.js"></script>
+    <script src="prism-cpp-doxygen.min.js"></script>
+  </body>
+</html>

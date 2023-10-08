@@ -1,0 +1,19 @@
+{
+  "name": "prism-cpp-doxygen",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "Imken Luo <me@imken.moe>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/prismjs": "^1.26.1",
+    "prismjs": "^1.29.0",
+    "rollup": "^4.0.2",
+    "typescript": "^5.2.2"
+  }
+}
